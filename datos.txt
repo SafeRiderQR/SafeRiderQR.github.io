@@ -1,0 +1,8 @@
+const firebaseConfig = {
+  apiKey: "AIzaSyB2ecubGvryYKY-1XnvDSJzNKiDBOTtK2k",
+  authDomain: "saferiderqr.firebaseapp.com",
+  projectId: "saferiderqr",
+  storageBucket: "saferiderqr.firebasestorage.app",
+  messagingSenderId: "788479085894",
+  appId: "1:788479085894:web:d5a43a8de32136aae16947"
+};
