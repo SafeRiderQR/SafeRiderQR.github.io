@@ -1346,19 +1346,40 @@
             </div>
         </div>
         
-        <!-- CREATOR SECTION -->
-        <div class="creator-section">
-            <div class="creator-avatar">🚴</div>
-            <div class="creator-name">Marcos Esparza</div>
-            <div class="creator-bio">
-                Sé lo que se siente ver a un compañero caer y no poder ayudar porque no sabes ni quién es, a qué es alérgico, si tiene algún padecimiento, o quién poder avisar.<br><br>
-                SafeRiderQR nació de esa impotencia. Es mi granito de arena: gratuito, sincero y hecho por un rider para otros riders. Porque estoy convencido de que la seguridad no debería costar y en la carretera todos merecemos que alguien cuide de nosotros.
-            </div>
-            <div class="creator-contact">
-                <a href="https://wa.me/525652502785" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp: +52 5652502785</a>
-                <a href="mailto:mylifeqrsticker@gmail.com"><i class="fas fa-envelope"></i> mylifeqrsticker@gmail.com</a>
-            </div>
+<!-- CREATOR SECTION -->
+<div class="creator-section">
+    <div class="creator-avatar">👨‍💻</div>
+    <div class="creator-name">
+        Marcos Esparza — Creador de 
+        <a href="https://mylifeqr.github.io" target="_blank" style="color: #00A86B; text-decoration: none; border-bottom: 2px solid #00A86B;">"MyLifeQR"</a>
+    </div>
+    <div class="creator-bio">
+    Sé lo que se siente ver a un compañero caer y no poder ayudar porque no sabes ni quién es, a qué es alérgico, si tiene algún padecimiento, o quién poder avisar.
+    <br><br>
+    Por eso nació <a href="https://mylifeqr.github.io" target="_blank" style="color: #00A86B; font-weight: 600; text-decoration: none; border-bottom: 1px solid #00A86B;">MyLifeQR</a> para motociclistas. El éxito fue tan grande que los propios ciclistas empezaron a preguntar: <strong>"¿Cuándo una versión para nosotros?"</strong>
+    <br><br>
+    <a href="https://saferiderqr.github.io" target="_blank" style="color: #00A86B; font-weight: 600; text-decoration: none; border-bottom: 1px solid #00A86B;">SafeRiderQR</a> es la respuesta. Adaptado para quienes viajan sobre dos ruedas (con o sin motor todos somos hermanos de ruta), pero con el mismo corazón: gratuito, sincero y hecho para que nadie se quede sin ayuda en una emergencia.
+</div>
+    <div class="creator-family">
+        <span style="font-weight: 600; display: block; margin-bottom: 12px;">🔗 Conoce nuestra familia:</span>
+        <div style="display: flex; justify-content: center; gap: 32px; flex-wrap: wrap;">
+            <a href="https://mylifeqr.github.io" target="_blank" style="background: rgba(0,168,107,0.1); padding: 10px 28px; border-radius: 100px; color: #00A86B; font-weight: 600; text-decoration: none; transition: all 0.3s;">
+                <i class="fas fa-motorcycle"></i> MyLifeQR
+            </a>
+            <a href="https://saferiderqr.github.io" target="_blank" style="background: rgba(0,168,107,0.1); padding: 10px 28px; border-radius: 100px; color: #00A86B; font-weight: 600; text-decoration: none; transition: all 0.3s;">
+                <i class="fas fa-bicycle"></i> SafeRiderQR
+            </a>
         </div>
+        <div style="margin-top: 28px; padding-top: 20px; border-top: 1px solid #e8f0e8; display: flex; justify-content: center; gap: 32px; flex-wrap: wrap;">
+            <a href="https://wa.me/525652502785" target="_blank" style="color: #00A86B; text-decoration: none; font-weight: 500;">
+                <i class="fab fa-whatsapp"></i> WhatsApp: +52 5652502785
+            </a>
+            <a href="mailto:mylifeqrsticker@gmail.com" style="color: #00A86B; text-decoration: none; font-weight: 500;">
+                <i class="fas fa-envelope"></i> mylifeqrsticker@gmail.com
+            </a>
+        </div>
+    </div>
+</div>
         
         <!-- TESTIMONIALS SECTION -->
         <div class="testimonials">
@@ -2003,7 +2024,7 @@
     
     function actualizarQR() {
         if (!currentUser) return;
-        const urlPerfil = `https://SafeRiderQR.github.io/saferiderqr/perfil.html?id=${currentUser.uid}`;
+        const urlPerfil = `https://saferiderqr.github.io/perfil.html?id=${currentUser.uid}`;
         const overlay = document.getElementById('qrOverlay');
         if (overlay && window.QRCode) {
             overlay.style.display = 'flex';
